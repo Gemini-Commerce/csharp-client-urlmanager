@@ -20,6 +20,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Net.Http;
 using System.Net.Security;
+using urlmanager.Client.Auth;
 
 namespace urlmanager.Client
 {
@@ -114,7 +115,7 @@ namespace urlmanager.Client
         /// <summary>
         /// Initializes a new instance of the <see cref="Configuration" /> class
         /// </summary>
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("ReSharper", "VirtualMemberCallInConstructor")]
+        [global::System.Diagnostics.CodeAnalysis.SuppressMessage("ReSharper", "VirtualMemberCallInConstructor")]
         public Configuration()
         {
             Proxy = null;
@@ -143,7 +144,7 @@ namespace urlmanager.Client
         /// <summary>
         /// Initializes a new instance of the <see cref="Configuration" /> class
         /// </summary>
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("ReSharper", "VirtualMemberCallInConstructor")]
+        [global::System.Diagnostics.CodeAnalysis.SuppressMessage("ReSharper", "VirtualMemberCallInConstructor")]
         public Configuration(
             IDictionary<string, string> defaultHeaders,
             IDictionary<string, string> apiKey,
@@ -280,6 +281,36 @@ namespace urlmanager.Client
         /// </summary>
         /// <value>The access token.</value>
         public virtual string AccessToken { get; set; }
+
+        /// <summary>
+        /// Gets or sets the token URL for OAuth2 authentication.
+        /// </summary>
+        /// <value>The OAuth Token URL.</value>
+        public virtual string OAuthTokenUrl { get; set; }
+
+        /// <summary>
+        /// Gets or sets the client ID for OAuth2 authentication.
+        /// </summary>
+        /// <value>The OAuth Client ID.</value>
+        public virtual string OAuthClientId { get; set; }
+
+        /// <summary>
+        /// Gets or sets the client secret for OAuth2 authentication.
+        /// </summary>
+        /// <value>The OAuth Client Secret.</value>
+        public virtual string OAuthClientSecret { get; set; }
+
+        /// <summary>
+        /// Gets or sets the client scope for OAuth2 authentication.
+        /// </summary>
+        /// <value>The OAuth Client Scope.</value>
+        public virtual string? OAuthScope { get; set; }
+
+        /// <summary>
+        /// Gets or sets the flow for OAuth2 authentication.
+        /// </summary>
+        /// <value>The OAuth Flow.</value>
+        public virtual OAuthFlow? OAuthFlow { get; set; }
 
         /// <summary>
         /// Gets or sets the temporary folder path to store the files downloaded from the server.
@@ -600,6 +631,11 @@ namespace urlmanager.Client
                 Username = second.Username ?? first.Username,
                 Password = second.Password ?? first.Password,
                 AccessToken = second.AccessToken ?? first.AccessToken,
+                OAuthTokenUrl = second.OAuthTokenUrl ?? first.OAuthTokenUrl,
+                OAuthClientId = second.OAuthClientId ?? first.OAuthClientId,
+                OAuthClientSecret = second.OAuthClientSecret ?? first.OAuthClientSecret,
+                OAuthScope = second.OAuthScope ?? first.OAuthScope,
+                OAuthFlow = second.OAuthFlow ?? first.OAuthFlow,
                 TempFolderPath = second.TempFolderPath ?? first.TempFolderPath,
                 DateTimeFormat = second.DateTimeFormat ?? first.DateTimeFormat,
                 ClientCertificates = second.ClientCertificates ?? first.ClientCertificates,

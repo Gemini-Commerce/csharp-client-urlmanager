@@ -51,6 +51,7 @@ namespace urlmanager.Model
             this.TargetPaths = targetPaths;
             this.Context = context;
             this.LinkRel = linkRel;
+            this.AdditionalProperties = new Dictionary<string, object>();
         }
 
         /// <summary>
@@ -75,6 +76,12 @@ namespace urlmanager.Model
         public string Context { get; set; }
 
         /// <summary>
+        /// Gets or Sets additional properties
+        /// </summary>
+        [JsonExtensionData]
+        public IDictionary<string, object> AdditionalProperties { get; set; }
+
+        /// <summary>
         /// Returns the string presentation of the object
         /// </summary>
         /// <returns>String presentation of the object</returns>
@@ -86,6 +93,7 @@ namespace urlmanager.Model
             sb.Append("  TargetPaths: ").Append(TargetPaths).Append("\n");
             sb.Append("  Context: ").Append(Context).Append("\n");
             sb.Append("  LinkRel: ").Append(LinkRel).Append("\n");
+            sb.Append("  AdditionalProperties: ").Append(AdditionalProperties).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -104,7 +112,7 @@ namespace urlmanager.Model
         /// </summary>
         /// <param name="validationContext">Validation context</param>
         /// <returns>Validation Result</returns>
-        IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
+        IEnumerable<ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
         {
             yield break;
         }

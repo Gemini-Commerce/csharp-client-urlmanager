@@ -43,6 +43,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://urlmanager.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new UrlmanagerChangeUrlRewriteRequestPathRequest(); // UrlmanagerChangeUrlRewriteRequestPathRequest | 
@@ -96,7 +100,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -138,6 +142,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://urlmanager.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new UrlmanagerChangeUrlRewriteRequestPathRequest(); // UrlmanagerChangeUrlRewriteRequestPathRequest | 
@@ -191,7 +199,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -233,6 +241,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://urlmanager.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new UrlmanagerCreateUrlRewriteRequest(); // UrlmanagerCreateUrlRewriteRequest | 
@@ -286,7 +298,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -328,6 +340,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://urlmanager.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new UrlmanagerCreateUrlRewriteRequest(); // UrlmanagerCreateUrlRewriteRequest | 
@@ -381,7 +397,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -423,6 +439,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://urlmanager.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new UrlmanagerDeleteUrlRewriteRequest(); // UrlmanagerDeleteUrlRewriteRequest | 
@@ -476,7 +496,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -518,6 +538,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://urlmanager.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new UrlmanagerDeleteUrlRewriteRequest(); // UrlmanagerDeleteUrlRewriteRequest | 
@@ -571,7 +595,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -613,6 +637,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://urlmanager.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new UrlmanagerGetUrlRewriteRequest(); // UrlmanagerGetUrlRewriteRequest | 
@@ -666,7 +694,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -708,6 +736,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://urlmanager.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new UrlmanagerGetUrlRewriteRequest(); // UrlmanagerGetUrlRewriteRequest | 
@@ -761,7 +793,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -803,6 +835,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://urlmanager.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new UrlmanagerListUrlRewritesRequest(); // UrlmanagerListUrlRewritesRequest | 
@@ -856,7 +892,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -898,6 +934,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://urlmanager.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new UrlmanagerListUrlRewritesRequest(); // UrlmanagerListUrlRewritesRequest | 
@@ -951,7 +991,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -993,6 +1033,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://urlmanager.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new UrlmanagerListUrlRewritesByTargetPathsRequest(); // UrlmanagerListUrlRewritesByTargetPathsRequest | 
@@ -1046,7 +1090,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -1088,6 +1132,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://urlmanager.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new UrlmanagerListUrlRewritesByTargetPathsRequest(); // UrlmanagerListUrlRewritesByTargetPathsRequest | 
@@ -1141,7 +1189,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -1183,6 +1231,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://urlmanager.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new UrlmanagerResolveUrlRewriteRequest(); // UrlmanagerResolveUrlRewriteRequest | 
@@ -1236,7 +1288,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -1278,6 +1330,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://urlmanager.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new BasicOperationsApi(config);
             var body = new UrlmanagerResolveUrlRewriteRequest(); // UrlmanagerResolveUrlRewriteRequest | 
@@ -1331,7 +1387,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 

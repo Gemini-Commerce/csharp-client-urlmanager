@@ -39,6 +39,7 @@ namespace urlmanager.Model
         public UrlmanagerListUrlRewritesByTargetPathsResponse(List<UrlmanagerUrlRewrite> urlRewrites = default(List<UrlmanagerUrlRewrite>))
         {
             this.UrlRewrites = urlRewrites;
+            this.AdditionalProperties = new Dictionary<string, object>();
         }
 
         /// <summary>
@@ -46,6 +47,12 @@ namespace urlmanager.Model
         /// </summary>
         [DataMember(Name = "urlRewrites", EmitDefaultValue = false)]
         public List<UrlmanagerUrlRewrite> UrlRewrites { get; set; }
+
+        /// <summary>
+        /// Gets or Sets additional properties
+        /// </summary>
+        [JsonExtensionData]
+        public IDictionary<string, object> AdditionalProperties { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object
@@ -56,6 +63,7 @@ namespace urlmanager.Model
             StringBuilder sb = new StringBuilder();
             sb.Append("class UrlmanagerListUrlRewritesByTargetPathsResponse {\n");
             sb.Append("  UrlRewrites: ").Append(UrlRewrites).Append("\n");
+            sb.Append("  AdditionalProperties: ").Append(AdditionalProperties).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -74,7 +82,7 @@ namespace urlmanager.Model
         /// </summary>
         /// <param name="validationContext">Validation context</param>
         /// <returns>Validation Result</returns>
-        IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
+        IEnumerable<ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
         {
             yield break;
         }

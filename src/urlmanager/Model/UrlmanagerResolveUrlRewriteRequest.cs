@@ -43,6 +43,7 @@ namespace urlmanager.Model
             this.TenantId = tenantId;
             this.Context = context;
             this.RequestPath = requestPath;
+            this.AdditionalProperties = new Dictionary<string, object>();
         }
 
         /// <summary>
@@ -67,6 +68,12 @@ namespace urlmanager.Model
         public string RequestPath { get; set; }
 
         /// <summary>
+        /// Gets or Sets additional properties
+        /// </summary>
+        [JsonExtensionData]
+        public IDictionary<string, object> AdditionalProperties { get; set; }
+
+        /// <summary>
         /// Returns the string presentation of the object
         /// </summary>
         /// <returns>String presentation of the object</returns>
@@ -77,6 +84,7 @@ namespace urlmanager.Model
             sb.Append("  TenantId: ").Append(TenantId).Append("\n");
             sb.Append("  Context: ").Append(Context).Append("\n");
             sb.Append("  RequestPath: ").Append(RequestPath).Append("\n");
+            sb.Append("  AdditionalProperties: ").Append(AdditionalProperties).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -95,7 +103,7 @@ namespace urlmanager.Model
         /// </summary>
         /// <param name="validationContext">Validation context</param>
         /// <returns>Validation Result</returns>
-        IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
+        IEnumerable<ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
         {
             yield break;
         }

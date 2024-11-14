@@ -16,6 +16,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Mime;
 using urlmanager.Client;
+using urlmanager.Client.Auth;
 using urlmanager.Model;
 
 namespace urlmanager.Api
@@ -369,7 +370,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        System.Threading.Tasks.Task<Object> UrlManagerChangeUrlRewriteRequestPathAsync(UrlmanagerChangeUrlRewriteRequestPathRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<Object> UrlManagerChangeUrlRewriteRequestPathAsync(UrlmanagerChangeUrlRewriteRequestPathRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Change Url Rewrite Request Path
@@ -382,7 +383,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        System.Threading.Tasks.Task<ApiResponse<Object>> UrlManagerChangeUrlRewriteRequestPathWithHttpInfoAsync(UrlmanagerChangeUrlRewriteRequestPathRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<Object>> UrlManagerChangeUrlRewriteRequestPathWithHttpInfoAsync(UrlmanagerChangeUrlRewriteRequestPathRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Change Url Rewrite Request Path
         /// </summary>
@@ -394,7 +395,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        System.Threading.Tasks.Task<Object> UrlManagerChangeUrlRewriteRequestPath2Async(UrlmanagerChangeUrlRewriteRequestPathRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<Object> UrlManagerChangeUrlRewriteRequestPath2Async(UrlmanagerChangeUrlRewriteRequestPathRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Change Url Rewrite Request Path
@@ -407,7 +408,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        System.Threading.Tasks.Task<ApiResponse<Object>> UrlManagerChangeUrlRewriteRequestPath2WithHttpInfoAsync(UrlmanagerChangeUrlRewriteRequestPathRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<Object>> UrlManagerChangeUrlRewriteRequestPath2WithHttpInfoAsync(UrlmanagerChangeUrlRewriteRequestPathRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Create Url Rewrite
         /// </summary>
@@ -419,7 +420,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of UrlmanagerUrlRewrite</returns>
-        System.Threading.Tasks.Task<UrlmanagerUrlRewrite> UrlManagerCreateUrlRewriteAsync(UrlmanagerCreateUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<UrlmanagerUrlRewrite> UrlManagerCreateUrlRewriteAsync(UrlmanagerCreateUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Create Url Rewrite
@@ -432,7 +433,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (UrlmanagerUrlRewrite)</returns>
-        System.Threading.Tasks.Task<ApiResponse<UrlmanagerUrlRewrite>> UrlManagerCreateUrlRewriteWithHttpInfoAsync(UrlmanagerCreateUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<UrlmanagerUrlRewrite>> UrlManagerCreateUrlRewriteWithHttpInfoAsync(UrlmanagerCreateUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Create Url Rewrite
         /// </summary>
@@ -444,7 +445,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of UrlmanagerUrlRewrite</returns>
-        System.Threading.Tasks.Task<UrlmanagerUrlRewrite> UrlManagerCreateUrlRewrite2Async(UrlmanagerCreateUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<UrlmanagerUrlRewrite> UrlManagerCreateUrlRewrite2Async(UrlmanagerCreateUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Create Url Rewrite
@@ -457,7 +458,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (UrlmanagerUrlRewrite)</returns>
-        System.Threading.Tasks.Task<ApiResponse<UrlmanagerUrlRewrite>> UrlManagerCreateUrlRewrite2WithHttpInfoAsync(UrlmanagerCreateUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<UrlmanagerUrlRewrite>> UrlManagerCreateUrlRewrite2WithHttpInfoAsync(UrlmanagerCreateUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Delete Url Rewrite
         /// </summary>
@@ -469,7 +470,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        System.Threading.Tasks.Task<Object> UrlManagerDeleteUrlRewriteAsync(UrlmanagerDeleteUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<Object> UrlManagerDeleteUrlRewriteAsync(UrlmanagerDeleteUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Delete Url Rewrite
@@ -482,7 +483,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        System.Threading.Tasks.Task<ApiResponse<Object>> UrlManagerDeleteUrlRewriteWithHttpInfoAsync(UrlmanagerDeleteUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<Object>> UrlManagerDeleteUrlRewriteWithHttpInfoAsync(UrlmanagerDeleteUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Delete Url Rewrite
         /// </summary>
@@ -494,7 +495,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        System.Threading.Tasks.Task<Object> UrlManagerDeleteUrlRewrite2Async(UrlmanagerDeleteUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<Object> UrlManagerDeleteUrlRewrite2Async(UrlmanagerDeleteUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Delete Url Rewrite
@@ -507,7 +508,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        System.Threading.Tasks.Task<ApiResponse<Object>> UrlManagerDeleteUrlRewrite2WithHttpInfoAsync(UrlmanagerDeleteUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<Object>> UrlManagerDeleteUrlRewrite2WithHttpInfoAsync(UrlmanagerDeleteUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Get Url Rewrite
         /// </summary>
@@ -519,7 +520,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of UrlmanagerUrlRewrite</returns>
-        System.Threading.Tasks.Task<UrlmanagerUrlRewrite> UrlManagerGetUrlRewriteAsync(UrlmanagerGetUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<UrlmanagerUrlRewrite> UrlManagerGetUrlRewriteAsync(UrlmanagerGetUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Get Url Rewrite
@@ -532,7 +533,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (UrlmanagerUrlRewrite)</returns>
-        System.Threading.Tasks.Task<ApiResponse<UrlmanagerUrlRewrite>> UrlManagerGetUrlRewriteWithHttpInfoAsync(UrlmanagerGetUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<UrlmanagerUrlRewrite>> UrlManagerGetUrlRewriteWithHttpInfoAsync(UrlmanagerGetUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Get Url Rewrite
         /// </summary>
@@ -544,7 +545,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of UrlmanagerUrlRewrite</returns>
-        System.Threading.Tasks.Task<UrlmanagerUrlRewrite> UrlManagerGetUrlRewrite2Async(UrlmanagerGetUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<UrlmanagerUrlRewrite> UrlManagerGetUrlRewrite2Async(UrlmanagerGetUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Get Url Rewrite
@@ -557,7 +558,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (UrlmanagerUrlRewrite)</returns>
-        System.Threading.Tasks.Task<ApiResponse<UrlmanagerUrlRewrite>> UrlManagerGetUrlRewrite2WithHttpInfoAsync(UrlmanagerGetUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<UrlmanagerUrlRewrite>> UrlManagerGetUrlRewrite2WithHttpInfoAsync(UrlmanagerGetUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// List Url Rewrites
         /// </summary>
@@ -569,7 +570,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of UrlmanagerListUrlRewritesResponse</returns>
-        System.Threading.Tasks.Task<UrlmanagerListUrlRewritesResponse> UrlManagerListUrlRewritesAsync(UrlmanagerListUrlRewritesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<UrlmanagerListUrlRewritesResponse> UrlManagerListUrlRewritesAsync(UrlmanagerListUrlRewritesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// List Url Rewrites
@@ -582,7 +583,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (UrlmanagerListUrlRewritesResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<UrlmanagerListUrlRewritesResponse>> UrlManagerListUrlRewritesWithHttpInfoAsync(UrlmanagerListUrlRewritesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<UrlmanagerListUrlRewritesResponse>> UrlManagerListUrlRewritesWithHttpInfoAsync(UrlmanagerListUrlRewritesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// List Url Rewrites
         /// </summary>
@@ -594,7 +595,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of UrlmanagerListUrlRewritesResponse</returns>
-        System.Threading.Tasks.Task<UrlmanagerListUrlRewritesResponse> UrlManagerListUrlRewrites2Async(UrlmanagerListUrlRewritesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<UrlmanagerListUrlRewritesResponse> UrlManagerListUrlRewrites2Async(UrlmanagerListUrlRewritesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// List Url Rewrites
@@ -607,7 +608,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (UrlmanagerListUrlRewritesResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<UrlmanagerListUrlRewritesResponse>> UrlManagerListUrlRewrites2WithHttpInfoAsync(UrlmanagerListUrlRewritesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<UrlmanagerListUrlRewritesResponse>> UrlManagerListUrlRewrites2WithHttpInfoAsync(UrlmanagerListUrlRewritesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// List Url Rewrites By Target Paths
         /// </summary>
@@ -619,7 +620,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of UrlmanagerListUrlRewritesByTargetPathsRequest</returns>
-        System.Threading.Tasks.Task<UrlmanagerListUrlRewritesByTargetPathsRequest> UrlManagerListUrlRewritesByTargetPathsAsync(UrlmanagerListUrlRewritesByTargetPathsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<UrlmanagerListUrlRewritesByTargetPathsRequest> UrlManagerListUrlRewritesByTargetPathsAsync(UrlmanagerListUrlRewritesByTargetPathsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// List Url Rewrites By Target Paths
@@ -632,7 +633,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (UrlmanagerListUrlRewritesByTargetPathsRequest)</returns>
-        System.Threading.Tasks.Task<ApiResponse<UrlmanagerListUrlRewritesByTargetPathsRequest>> UrlManagerListUrlRewritesByTargetPathsWithHttpInfoAsync(UrlmanagerListUrlRewritesByTargetPathsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<UrlmanagerListUrlRewritesByTargetPathsRequest>> UrlManagerListUrlRewritesByTargetPathsWithHttpInfoAsync(UrlmanagerListUrlRewritesByTargetPathsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// List Url Rewrites By Target Paths
         /// </summary>
@@ -644,7 +645,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of UrlmanagerListUrlRewritesByTargetPathsRequest</returns>
-        System.Threading.Tasks.Task<UrlmanagerListUrlRewritesByTargetPathsRequest> UrlManagerListUrlRewritesByTargetPaths2Async(UrlmanagerListUrlRewritesByTargetPathsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<UrlmanagerListUrlRewritesByTargetPathsRequest> UrlManagerListUrlRewritesByTargetPaths2Async(UrlmanagerListUrlRewritesByTargetPathsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// List Url Rewrites By Target Paths
@@ -657,7 +658,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (UrlmanagerListUrlRewritesByTargetPathsRequest)</returns>
-        System.Threading.Tasks.Task<ApiResponse<UrlmanagerListUrlRewritesByTargetPathsRequest>> UrlManagerListUrlRewritesByTargetPaths2WithHttpInfoAsync(UrlmanagerListUrlRewritesByTargetPathsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<UrlmanagerListUrlRewritesByTargetPathsRequest>> UrlManagerListUrlRewritesByTargetPaths2WithHttpInfoAsync(UrlmanagerListUrlRewritesByTargetPathsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Resolve Url Rewrite
         /// </summary>
@@ -669,7 +670,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of UrlmanagerUrlRewrite</returns>
-        System.Threading.Tasks.Task<UrlmanagerUrlRewrite> UrlManagerResolveUrlRewriteAsync(UrlmanagerResolveUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<UrlmanagerUrlRewrite> UrlManagerResolveUrlRewriteAsync(UrlmanagerResolveUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Resolve Url Rewrite
@@ -682,7 +683,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (UrlmanagerUrlRewrite)</returns>
-        System.Threading.Tasks.Task<ApiResponse<UrlmanagerUrlRewrite>> UrlManagerResolveUrlRewriteWithHttpInfoAsync(UrlmanagerResolveUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<UrlmanagerUrlRewrite>> UrlManagerResolveUrlRewriteWithHttpInfoAsync(UrlmanagerResolveUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Resolve Url Rewrite
         /// </summary>
@@ -694,7 +695,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of UrlmanagerUrlRewrite</returns>
-        System.Threading.Tasks.Task<UrlmanagerUrlRewrite> UrlManagerResolveUrlRewrite2Async(UrlmanagerResolveUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<UrlmanagerUrlRewrite> UrlManagerResolveUrlRewrite2Async(UrlmanagerResolveUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Resolve Url Rewrite
@@ -707,7 +708,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (UrlmanagerUrlRewrite)</returns>
-        System.Threading.Tasks.Task<ApiResponse<UrlmanagerUrlRewrite>> UrlManagerResolveUrlRewrite2WithHttpInfoAsync(UrlmanagerResolveUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<UrlmanagerUrlRewrite>> UrlManagerResolveUrlRewrite2WithHttpInfoAsync(UrlmanagerResolveUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         #endregion Asynchronous Operations
     }
 
@@ -884,6 +885,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerChangeUrlRewriteRequestPath";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<Object>("/urlmanager/change_url_rewrite_request_path", localVarRequestOptions, this.Configuration);
@@ -907,7 +913,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        public async System.Threading.Tasks.Task<Object> UrlManagerChangeUrlRewriteRequestPathAsync(UrlmanagerChangeUrlRewriteRequestPathRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<Object> UrlManagerChangeUrlRewriteRequestPathAsync(UrlmanagerChangeUrlRewriteRequestPathRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             urlmanager.Client.ApiResponse<Object> localVarResponse = await UrlManagerChangeUrlRewriteRequestPathWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -921,7 +927,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<Object>> UrlManagerChangeUrlRewriteRequestPathWithHttpInfoAsync(UrlmanagerChangeUrlRewriteRequestPathRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<Object>> UrlManagerChangeUrlRewriteRequestPathWithHttpInfoAsync(UrlmanagerChangeUrlRewriteRequestPathRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -958,6 +964,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerChangeUrlRewriteRequestPath";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<Object>("/urlmanager/change_url_rewrite_request_path", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -1030,6 +1041,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerChangeUrlRewriteRequestPath2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<Object>("/urlmanager.UrlManager/ChangeUrlRewriteRequestPath", localVarRequestOptions, this.Configuration);
@@ -1053,7 +1069,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        public async System.Threading.Tasks.Task<Object> UrlManagerChangeUrlRewriteRequestPath2Async(UrlmanagerChangeUrlRewriteRequestPathRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<Object> UrlManagerChangeUrlRewriteRequestPath2Async(UrlmanagerChangeUrlRewriteRequestPathRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             urlmanager.Client.ApiResponse<Object> localVarResponse = await UrlManagerChangeUrlRewriteRequestPath2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1067,7 +1083,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<Object>> UrlManagerChangeUrlRewriteRequestPath2WithHttpInfoAsync(UrlmanagerChangeUrlRewriteRequestPathRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<Object>> UrlManagerChangeUrlRewriteRequestPath2WithHttpInfoAsync(UrlmanagerChangeUrlRewriteRequestPathRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1104,6 +1120,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerChangeUrlRewriteRequestPath2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<Object>("/urlmanager.UrlManager/ChangeUrlRewriteRequestPath", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -1176,6 +1197,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerCreateUrlRewrite";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<UrlmanagerUrlRewrite>("/urlmanager/create_url_rewrite", localVarRequestOptions, this.Configuration);
@@ -1199,7 +1225,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of UrlmanagerUrlRewrite</returns>
-        public async System.Threading.Tasks.Task<UrlmanagerUrlRewrite> UrlManagerCreateUrlRewriteAsync(UrlmanagerCreateUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<UrlmanagerUrlRewrite> UrlManagerCreateUrlRewriteAsync(UrlmanagerCreateUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             urlmanager.Client.ApiResponse<UrlmanagerUrlRewrite> localVarResponse = await UrlManagerCreateUrlRewriteWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1213,7 +1239,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (UrlmanagerUrlRewrite)</returns>
-        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<UrlmanagerUrlRewrite>> UrlManagerCreateUrlRewriteWithHttpInfoAsync(UrlmanagerCreateUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<UrlmanagerUrlRewrite>> UrlManagerCreateUrlRewriteWithHttpInfoAsync(UrlmanagerCreateUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1250,6 +1276,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerCreateUrlRewrite";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<UrlmanagerUrlRewrite>("/urlmanager/create_url_rewrite", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -1322,6 +1353,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerCreateUrlRewrite2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<UrlmanagerUrlRewrite>("/urlmanager.UrlManager/CreateUrlRewrite", localVarRequestOptions, this.Configuration);
@@ -1345,7 +1381,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of UrlmanagerUrlRewrite</returns>
-        public async System.Threading.Tasks.Task<UrlmanagerUrlRewrite> UrlManagerCreateUrlRewrite2Async(UrlmanagerCreateUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<UrlmanagerUrlRewrite> UrlManagerCreateUrlRewrite2Async(UrlmanagerCreateUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             urlmanager.Client.ApiResponse<UrlmanagerUrlRewrite> localVarResponse = await UrlManagerCreateUrlRewrite2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1359,7 +1395,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (UrlmanagerUrlRewrite)</returns>
-        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<UrlmanagerUrlRewrite>> UrlManagerCreateUrlRewrite2WithHttpInfoAsync(UrlmanagerCreateUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<UrlmanagerUrlRewrite>> UrlManagerCreateUrlRewrite2WithHttpInfoAsync(UrlmanagerCreateUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1396,6 +1432,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerCreateUrlRewrite2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<UrlmanagerUrlRewrite>("/urlmanager.UrlManager/CreateUrlRewrite", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -1468,6 +1509,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerDeleteUrlRewrite";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<Object>("/urlmanager/delete_url_rewrite", localVarRequestOptions, this.Configuration);
@@ -1491,7 +1537,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        public async System.Threading.Tasks.Task<Object> UrlManagerDeleteUrlRewriteAsync(UrlmanagerDeleteUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<Object> UrlManagerDeleteUrlRewriteAsync(UrlmanagerDeleteUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             urlmanager.Client.ApiResponse<Object> localVarResponse = await UrlManagerDeleteUrlRewriteWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1505,7 +1551,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<Object>> UrlManagerDeleteUrlRewriteWithHttpInfoAsync(UrlmanagerDeleteUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<Object>> UrlManagerDeleteUrlRewriteWithHttpInfoAsync(UrlmanagerDeleteUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1542,6 +1588,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerDeleteUrlRewrite";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<Object>("/urlmanager/delete_url_rewrite", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -1614,6 +1665,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerDeleteUrlRewrite2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<Object>("/urlmanager.UrlManager/DeleteUrlRewrite", localVarRequestOptions, this.Configuration);
@@ -1637,7 +1693,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        public async System.Threading.Tasks.Task<Object> UrlManagerDeleteUrlRewrite2Async(UrlmanagerDeleteUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<Object> UrlManagerDeleteUrlRewrite2Async(UrlmanagerDeleteUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             urlmanager.Client.ApiResponse<Object> localVarResponse = await UrlManagerDeleteUrlRewrite2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1651,7 +1707,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<Object>> UrlManagerDeleteUrlRewrite2WithHttpInfoAsync(UrlmanagerDeleteUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<Object>> UrlManagerDeleteUrlRewrite2WithHttpInfoAsync(UrlmanagerDeleteUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1688,6 +1744,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerDeleteUrlRewrite2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<Object>("/urlmanager.UrlManager/DeleteUrlRewrite", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -1760,6 +1821,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerGetUrlRewrite";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<UrlmanagerUrlRewrite>("/urlmanager/get_url_rewrite", localVarRequestOptions, this.Configuration);
@@ -1783,7 +1849,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of UrlmanagerUrlRewrite</returns>
-        public async System.Threading.Tasks.Task<UrlmanagerUrlRewrite> UrlManagerGetUrlRewriteAsync(UrlmanagerGetUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<UrlmanagerUrlRewrite> UrlManagerGetUrlRewriteAsync(UrlmanagerGetUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             urlmanager.Client.ApiResponse<UrlmanagerUrlRewrite> localVarResponse = await UrlManagerGetUrlRewriteWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1797,7 +1863,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (UrlmanagerUrlRewrite)</returns>
-        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<UrlmanagerUrlRewrite>> UrlManagerGetUrlRewriteWithHttpInfoAsync(UrlmanagerGetUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<UrlmanagerUrlRewrite>> UrlManagerGetUrlRewriteWithHttpInfoAsync(UrlmanagerGetUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1834,6 +1900,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerGetUrlRewrite";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<UrlmanagerUrlRewrite>("/urlmanager/get_url_rewrite", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -1906,6 +1977,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerGetUrlRewrite2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<UrlmanagerUrlRewrite>("/urlmanager.UrlManager/GetUrlRewrite", localVarRequestOptions, this.Configuration);
@@ -1929,7 +2005,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of UrlmanagerUrlRewrite</returns>
-        public async System.Threading.Tasks.Task<UrlmanagerUrlRewrite> UrlManagerGetUrlRewrite2Async(UrlmanagerGetUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<UrlmanagerUrlRewrite> UrlManagerGetUrlRewrite2Async(UrlmanagerGetUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             urlmanager.Client.ApiResponse<UrlmanagerUrlRewrite> localVarResponse = await UrlManagerGetUrlRewrite2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1943,7 +2019,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (UrlmanagerUrlRewrite)</returns>
-        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<UrlmanagerUrlRewrite>> UrlManagerGetUrlRewrite2WithHttpInfoAsync(UrlmanagerGetUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<UrlmanagerUrlRewrite>> UrlManagerGetUrlRewrite2WithHttpInfoAsync(UrlmanagerGetUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1980,6 +2056,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerGetUrlRewrite2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<UrlmanagerUrlRewrite>("/urlmanager.UrlManager/GetUrlRewrite", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -2052,6 +2133,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerListUrlRewrites";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<UrlmanagerListUrlRewritesResponse>("/urlmanager/list_url_rewrites", localVarRequestOptions, this.Configuration);
@@ -2075,7 +2161,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of UrlmanagerListUrlRewritesResponse</returns>
-        public async System.Threading.Tasks.Task<UrlmanagerListUrlRewritesResponse> UrlManagerListUrlRewritesAsync(UrlmanagerListUrlRewritesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<UrlmanagerListUrlRewritesResponse> UrlManagerListUrlRewritesAsync(UrlmanagerListUrlRewritesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             urlmanager.Client.ApiResponse<UrlmanagerListUrlRewritesResponse> localVarResponse = await UrlManagerListUrlRewritesWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2089,7 +2175,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (UrlmanagerListUrlRewritesResponse)</returns>
-        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<UrlmanagerListUrlRewritesResponse>> UrlManagerListUrlRewritesWithHttpInfoAsync(UrlmanagerListUrlRewritesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<UrlmanagerListUrlRewritesResponse>> UrlManagerListUrlRewritesWithHttpInfoAsync(UrlmanagerListUrlRewritesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2126,6 +2212,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerListUrlRewrites";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<UrlmanagerListUrlRewritesResponse>("/urlmanager/list_url_rewrites", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -2198,6 +2289,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerListUrlRewrites2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<UrlmanagerListUrlRewritesResponse>("/urlmanager.UrlManager/ListUrlRewrites", localVarRequestOptions, this.Configuration);
@@ -2221,7 +2317,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of UrlmanagerListUrlRewritesResponse</returns>
-        public async System.Threading.Tasks.Task<UrlmanagerListUrlRewritesResponse> UrlManagerListUrlRewrites2Async(UrlmanagerListUrlRewritesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<UrlmanagerListUrlRewritesResponse> UrlManagerListUrlRewrites2Async(UrlmanagerListUrlRewritesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             urlmanager.Client.ApiResponse<UrlmanagerListUrlRewritesResponse> localVarResponse = await UrlManagerListUrlRewrites2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2235,7 +2331,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (UrlmanagerListUrlRewritesResponse)</returns>
-        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<UrlmanagerListUrlRewritesResponse>> UrlManagerListUrlRewrites2WithHttpInfoAsync(UrlmanagerListUrlRewritesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<UrlmanagerListUrlRewritesResponse>> UrlManagerListUrlRewrites2WithHttpInfoAsync(UrlmanagerListUrlRewritesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2272,6 +2368,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerListUrlRewrites2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<UrlmanagerListUrlRewritesResponse>("/urlmanager.UrlManager/ListUrlRewrites", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -2344,6 +2445,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerListUrlRewritesByTargetPaths";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<UrlmanagerListUrlRewritesByTargetPathsRequest>("/urlmanager/list_url_rewrites_by_target_paths", localVarRequestOptions, this.Configuration);
@@ -2367,7 +2473,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of UrlmanagerListUrlRewritesByTargetPathsRequest</returns>
-        public async System.Threading.Tasks.Task<UrlmanagerListUrlRewritesByTargetPathsRequest> UrlManagerListUrlRewritesByTargetPathsAsync(UrlmanagerListUrlRewritesByTargetPathsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<UrlmanagerListUrlRewritesByTargetPathsRequest> UrlManagerListUrlRewritesByTargetPathsAsync(UrlmanagerListUrlRewritesByTargetPathsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             urlmanager.Client.ApiResponse<UrlmanagerListUrlRewritesByTargetPathsRequest> localVarResponse = await UrlManagerListUrlRewritesByTargetPathsWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2381,7 +2487,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (UrlmanagerListUrlRewritesByTargetPathsRequest)</returns>
-        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<UrlmanagerListUrlRewritesByTargetPathsRequest>> UrlManagerListUrlRewritesByTargetPathsWithHttpInfoAsync(UrlmanagerListUrlRewritesByTargetPathsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<UrlmanagerListUrlRewritesByTargetPathsRequest>> UrlManagerListUrlRewritesByTargetPathsWithHttpInfoAsync(UrlmanagerListUrlRewritesByTargetPathsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2418,6 +2524,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerListUrlRewritesByTargetPaths";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<UrlmanagerListUrlRewritesByTargetPathsRequest>("/urlmanager/list_url_rewrites_by_target_paths", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -2490,6 +2601,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerListUrlRewritesByTargetPaths2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<UrlmanagerListUrlRewritesByTargetPathsRequest>("/urlmanager.UrlManager/ListUrlRewritesByTargetPaths", localVarRequestOptions, this.Configuration);
@@ -2513,7 +2629,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of UrlmanagerListUrlRewritesByTargetPathsRequest</returns>
-        public async System.Threading.Tasks.Task<UrlmanagerListUrlRewritesByTargetPathsRequest> UrlManagerListUrlRewritesByTargetPaths2Async(UrlmanagerListUrlRewritesByTargetPathsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<UrlmanagerListUrlRewritesByTargetPathsRequest> UrlManagerListUrlRewritesByTargetPaths2Async(UrlmanagerListUrlRewritesByTargetPathsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             urlmanager.Client.ApiResponse<UrlmanagerListUrlRewritesByTargetPathsRequest> localVarResponse = await UrlManagerListUrlRewritesByTargetPaths2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2527,7 +2643,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (UrlmanagerListUrlRewritesByTargetPathsRequest)</returns>
-        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<UrlmanagerListUrlRewritesByTargetPathsRequest>> UrlManagerListUrlRewritesByTargetPaths2WithHttpInfoAsync(UrlmanagerListUrlRewritesByTargetPathsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<UrlmanagerListUrlRewritesByTargetPathsRequest>> UrlManagerListUrlRewritesByTargetPaths2WithHttpInfoAsync(UrlmanagerListUrlRewritesByTargetPathsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2564,6 +2680,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerListUrlRewritesByTargetPaths2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<UrlmanagerListUrlRewritesByTargetPathsRequest>("/urlmanager.UrlManager/ListUrlRewritesByTargetPaths", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -2636,6 +2757,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerResolveUrlRewrite";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<UrlmanagerUrlRewrite>("/urlmanager/resolve_url_rewrite", localVarRequestOptions, this.Configuration);
@@ -2659,7 +2785,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of UrlmanagerUrlRewrite</returns>
-        public async System.Threading.Tasks.Task<UrlmanagerUrlRewrite> UrlManagerResolveUrlRewriteAsync(UrlmanagerResolveUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<UrlmanagerUrlRewrite> UrlManagerResolveUrlRewriteAsync(UrlmanagerResolveUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             urlmanager.Client.ApiResponse<UrlmanagerUrlRewrite> localVarResponse = await UrlManagerResolveUrlRewriteWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2673,7 +2799,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (UrlmanagerUrlRewrite)</returns>
-        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<UrlmanagerUrlRewrite>> UrlManagerResolveUrlRewriteWithHttpInfoAsync(UrlmanagerResolveUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<UrlmanagerUrlRewrite>> UrlManagerResolveUrlRewriteWithHttpInfoAsync(UrlmanagerResolveUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2710,6 +2836,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerResolveUrlRewrite";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<UrlmanagerUrlRewrite>("/urlmanager/resolve_url_rewrite", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -2782,6 +2913,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerResolveUrlRewrite2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<UrlmanagerUrlRewrite>("/urlmanager.UrlManager/ResolveUrlRewrite", localVarRequestOptions, this.Configuration);
@@ -2805,7 +2941,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of UrlmanagerUrlRewrite</returns>
-        public async System.Threading.Tasks.Task<UrlmanagerUrlRewrite> UrlManagerResolveUrlRewrite2Async(UrlmanagerResolveUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<UrlmanagerUrlRewrite> UrlManagerResolveUrlRewrite2Async(UrlmanagerResolveUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             urlmanager.Client.ApiResponse<UrlmanagerUrlRewrite> localVarResponse = await UrlManagerResolveUrlRewrite2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2819,7 +2955,7 @@ namespace urlmanager.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (UrlmanagerUrlRewrite)</returns>
-        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<UrlmanagerUrlRewrite>> UrlManagerResolveUrlRewrite2WithHttpInfoAsync(UrlmanagerResolveUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<urlmanager.Client.ApiResponse<UrlmanagerUrlRewrite>> UrlManagerResolveUrlRewrite2WithHttpInfoAsync(UrlmanagerResolveUrlRewriteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2856,6 +2992,11 @@ namespace urlmanager.Api
             localVarRequestOptions.Operation = "BasicOperationsApi.UrlManagerResolveUrlRewrite2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<UrlmanagerUrlRewrite>("/urlmanager.UrlManager/ResolveUrlRewrite", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
